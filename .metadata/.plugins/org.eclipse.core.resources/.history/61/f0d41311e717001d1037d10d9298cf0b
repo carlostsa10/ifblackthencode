@@ -1,0 +1,6 @@
+
+public class Sub {
+	public void adicionar(int PrimeiroNum, int SegundoNum) {
+		System.out.println("A soma de" + PrimeiroNum + " mais " + SegundoNum +" é igual a: " + (PrimeiroNum+SegundoNum));
+	}
+}

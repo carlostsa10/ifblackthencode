@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ControleFrutas {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		ArrayList<String> MercadoIBM = new ArrayList<String>();
+		int x;
+		do {
+			System.out.println("Bem vindo ao Mercadito da IBM!!");
+			System.out.println("Menu:");
+            System.out.println("1- Cadastrar uma fruta \n2- Listar todas as frutas cadastradas \n3- Excluir frutas pelo ID \n4- Localizar uma fruta \n5- Atualizar o registro de uma fruta \n6- Sair");
+            x= sc.nextInt();
+            switch (x){
+                case 1: 
+                	Scanner sc1 = new Scanner(System.in);
+                	
+                	
+                	
+                break;
+                case 2:
+                	System.out.println(MercadoIBM);
+                break;
+                case 3: 
+                break;
+                case 6:
+                    System.out.println("Saindo do sistema!");
+                break;
+            }
+        }while (x<4);
+		}
+		
+	public static void cadastrarFruta(String[] MercadoIBM) {
+		
+}
+
+
+	
+}
+

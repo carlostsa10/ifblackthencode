@@ -1,0 +1,6 @@
+
+public class MandaMensagem {
+	public void mesagem(String Nome, String Email, int Idade) {
+		System.out.println("O nome \n" + Nome + ", tendo" + Idade + "anos, com email de contato:" + Email);
+	}
+}

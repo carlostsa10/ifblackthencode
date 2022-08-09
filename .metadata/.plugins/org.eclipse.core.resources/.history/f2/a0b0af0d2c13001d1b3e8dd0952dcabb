@@ -1,0 +1,10 @@
+
+public class MostraMensagem {
+
+	public static void main(String[] args) {
+		// Demonstração dos comentários
+		System.out.println("Seja bem vindo ao Mundo Java!!");
+		System.out.println("Vamos fazer um suuuuper desenvolvimento");
+	}
+
+}

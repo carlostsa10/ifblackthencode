@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class Inicio {
+
+	public static void main(String[] args) {
+		int PrimeiroNum, SegundoNum, opção;
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("----Bem vindo a suuuper calculadora do prof. Bontempo!");
+		System.out.println("Digite o primeiro número: ");
+		PrimeiroNum = teclado.nextInt();
+		
+		System.out.println("Digite o segundo número: ");
+		SegundoNum = teclado.nextInt();
+		
+		do {
+			System.out.println("Digite [1] - Vamos somar?");
+			System.out.println("Digite [2] - Vamos subtrair?");
+			System.out.println("Digite [3] - Vamos multiplicar?");
+			System.out.println("Digite [4] - Vamos dividir?");
+			System.out.println("Digite [0] - Sair do programa");
+			
+			opção = teclado.nextInt();
+			
+			switch(opção) {
+			case 1:
+				Adicao executar = new Adicao();
+				executar.adicionar(PrimeiroNum, SegundoNum);
+				break;
+			case 2:
+				Sub d = new Sub();
+				d.diminuir(PrimeiroNum, SegundoNum);
+				break;
+			case 3:
+				Mult m = new Mult();
+				m.multiplicar(PrimeiroNum, SegundoNum);
+				break;
+			case 4:
+				Div dr = new Div();
+				dr.dividir(PrimeiroNum, SegundoNum);
+			}
+			
+		} while(opção!=0); 
+		
+
+	}
+
+}

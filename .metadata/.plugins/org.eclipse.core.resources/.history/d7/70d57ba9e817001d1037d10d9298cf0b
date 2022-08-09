@@ -1,0 +1,6 @@
+
+public class Div {
+	public void multiplicar(int PrimeiroNum, int SegundoNum) {
+		System.out.println("A divisão de " + PrimeiroNum + " mais " + SegundoNum +" é igual a: " + (PrimeiroNum/SegundoNum));
+	}
+}

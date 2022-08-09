@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class OperacaoBancoDados {
+
+	public static void main(String[] args) {
+		// criação de procedimento de inserção de registros
+		
+		ArrayList<String> nomeClientes = new ArrayList<String>();
+		nomeClientes.add("Carlitos");
+		nomeClientes.add("Kris Evans");
+		
+		System.out.println(nomeClientes);
+		
+		
+
+	}
+
+}

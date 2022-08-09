@@ -1,0 +1,12 @@
+
+public class MostraMensagem {
+
+	public static void main(String[] args) {
+		// Criando variáveis
+		String nome="Carlos Tavares";
+		// Demonstração dos comentários
+		System.out.println("Bem vindo, " + nome);
+		System.out.println("Vamos fazer um suuuuper desenvolvimento");
+	}
+
+}
