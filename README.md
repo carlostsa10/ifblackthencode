@@ -6,3 +6,4 @@
 
 - Mercado IBM 08/08
 - Super Calculadora 09/08
+- Mostrador Hora (uso de métodos construtores e orientado a objetos) 25/08
